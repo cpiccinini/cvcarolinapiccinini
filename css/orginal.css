@@ -1,0 +1,464 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: grey;
+}
+
+.bordegrande{
+	border: 1px solid black;
+	float:left;
+	border-radius: 4px;
+	width:95%;
+	margin-right:2.5%;
+	margin-left: 2.5%;
+	background-color: #fff;
+
+}
+
+.bordegrande50left{
+	border: 1px solid blue;
+	width:42.5%;
+	height:220px;
+	float:left;
+	border-radius: 4px;
+	margin-left:2.5%;
+	margin-top: 2.5%;
+	background-color: #fff;
+
+}
+
+.bordegrande50right{
+	border: 1px solid blue;
+	width:42.5%;
+	height:220px;
+	float:right;
+	border-radius: 4px;
+	margin-right:2.5%;
+	margin-top: 2.5%;
+	background-color: #fff;
+
+}
+
+.cajitanombre {
+	float:left;
+	width:80%;
+	padding-left:5%;
+	height:40px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	text-align: left;
+	margin-bottom:5px;
+	border: 1px solid green;
+}
+
+
+.cajitanombre h1{
+	font-size:32px;
+	color:rgba(76, 178, 178, 0.7);
+	font-weight:900;
+	text-align: left;
+	margin-top: 0px;
+
+}
+
+.cajitanombre h2{
+	font-style: 14px;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 5px;
+
+}
+.cajitanombre h3 {
+	font-size:14px;
+	font-weight:400;
+	text-align: left;
+	margin-top: 10px;
+	color:grey;
+}
+
+
+.cajitanombre h3 a:link {
+    color: #39c6c6;
+    text-decoration:none;
+
+}
+
+.cajitanombre h3 a:visited {
+   color: none;
+}
+
+.cajitanombre h3 a:hover {
+   color: grey;
+}
+
+.cajitanombre h3 a:active {
+	color: black;
+}
+
+
+.loguito1{
+	float:left;
+	width:10%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin-right: 6%;
+	margin-bottom:5px;
+	border: 1px solid green;
+}
+
+.loguito1 a:link {
+    color: grey;
+    text-decoration:none;
+
+}
+
+.loguito1 a:visited {
+   color: grey;
+}
+
+.loguito1 a:hover {
+   color: #39c6c6;
+}
+
+.loguito1 a:active {
+	color: black;
+}
+
+
+.fotoperfil{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width:200px;
+	border:1px dotted grey;
+	box-shadow:5px 5px 5px #f2f2f2;
+	float:right;
+}
+
+.fotoperfil figure{
+	width:200px;
+	text-align: center;
+	margin-top: 0px;
+	border-radius: 4px;
+	border: 3px solid black ;
+
+}
+
+.cleaner{
+	clear: both;
+}
+
+.loguito figure{
+	text-align: center;
+}
+
+.bordegrandetitulo{
+	float:left;
+	border: 1px solid blue;
+	width:95%;
+	border-radius: 4px;
+	margin-left: 2.5%;
+	margin-right:2.5%;
+	background-color: #fff;
+
+}
+
+
+.titulomenu{
+	float:left;
+	border: 1px dotted 	#808080;
+	border-radius: 4px;
+	width:95%;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	margin-top: 1%;
+	background-color: #f2f2f2;
+	height:50px;
+
+}
+
+.titulomenu h2{
+	font-style: 15px;
+	font-weight: 900;
+	padding-left:5%;
+	text-align: left;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	margin-bottom:5px;
+	color:	#39c6c6;
+	text-transform: uppercase;
+	border: 1px solid red;
+	margin-top: -35px;
+
+}
+.iconomenu{
+	width: 5%;
+	height:35px;
+	margin-top: 10px;
+	margin-right: 20%;
+	text-align: center;
+	border: 1px solid green;
+	color:grey;
+}
+
+.debajodelmenu{
+
+	border: 1px dotted grey;
+	border-radius: 4px;
+	width:95%;
+	height:140px;
+	float: left;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	background-color:#fff;
+}
+
+
+.debajodelmenu h2{
+	font-weight: 300;
+	font-size: 16px;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+.empresas1{
+	float: left;
+	width:15%;
+	border: 1px dotted pink
+
+}
+
+.empresas1 img{
+	float:left;
+	width:70px;
+	height:70px;
+	border: 1px dotted pink;
+
+}
+
+.empresas1 h2{
+	font-weight: 400;
+	font-size: 12px;
+	margin-left: 130px;
+
+}
+
+.empresas1 h4{
+	font-weight: 300;
+	font-size: 10px;
+	margin-left: 130px;
+
+}
+
+
+.empresas{
+	float: left;
+	width:15%;
+	border: 1px dotted pink;
+
+}
+
+.empresas img{
+	float:left;
+	width:120px;
+	max-height:70px;
+	border: 1px dotted pink;
+
+}
+
+.empresas h2{
+	font-weight: 400;
+	font-size: 12px;
+	margin-left: 130px;
+
+}
+
+.empresas h4{
+	font-weight: 300;
+	font-size: 10px;
+	margin-left: 130px;
+
+
+}
+.skillbox{
+	width:10%;
+	float: left;
+	text-align: center;
+	margin-left: 6%;
+	margin-top: 8px;
+	color:#138686;
+}
+
+.estrellas{
+	margin-top: 5px;
+}
+
+.textoskill{
+	font-weight: 300;
+	font-size: 13px;
+	color:grey;
+	float:left;
+	width:100%;
+}
+
+.institucion{
+	margin-top: 5px;
+	width:15%;
+	height: 130px;
+	border:1px dotted pink;
+	float:left;
+	background-color: #fff;
+	box-shadow:5px 5px 5px #B9DCD2; 
+}
+
+.institucion img{
+	margin-top: 2px;
+	width:180px;
+	height:60px;
+	float:left;
+}
+
+.institucion h2{
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 12px;
+	float:left;
+	color:black;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left:10%;
+}
+
+.institucion h4{
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 10px;
+	float:left;
+	color:grey;
+	text-transform:capitalize;
+	text-align: center;
+	margin-left:10%;
+}
+
+.institucion1 img{
+	margin-top: 2px;
+	width:80px;
+	height:80px;
+	float:left;
+}
+
+.institucion1 h2{
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 12px;
+	float:left;
+	color:black;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left:10%;
+}
+
+.institucion1 h4{
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 10px;
+	float:left;
+	color:grey;
+	text-transform:capitalize;
+	text-align: center;
+	margin-left:10%;
+}
+
+
+
+.rating{
+	width:100px;
+	float:left;
+}
+
+.debajodelmenucontacto{
+
+	border: 1px dotted grey;
+	border-radius: 4px;
+	width:95%;
+	height:250px;
+	float: left;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	background-color: #fff;
+
+}
+
+
+.leftinput{
+float:left;
+width:50%;
+height:150px;
+margin-top: 15px;
+background-color: #fff;
+}
+
+.rightinput{
+float:right;
+width:50%;
+height:150px;
+margin-top: 15px;
+background-color: #fff;
+}
+
+.informacion1 input{
+width:90%;
+margin-left: 5%;
+margin-right: 5%;
+height:30px;
+font-size: 12px;
+font-family: inherit;
+margin-top: 5px;
+margin-bottom: 15px; 
+border:1px solid #d0d0e1;
+border-radius: 7px;
+}
+
+.message input{
+width:90%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 12px;
+font-family: inherit;
+border:1px solid #d0d0e1;
+border-radius: 4px;
+padding: 0px 0px 120px 0px;
+}
+
+.centersubmit{
+	border: 1px solid pink;
+	border-radius: 4px;
+	width:95%;
+	float: left;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	margin-top: 5px;
+	background-color: #fff;
+}
+
+
+
+.buttoncontact{
+	width: 100%;
+}
+
+.buttoncontact button{
+	margin-left: 46%;
+	margin-right:46%;
+	width: 8%;
+	border: 1px solid #d0d0e1;
+	background-color: #39c6c6;
+	border-radius: 4px;
+	height: 30px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: 300;
+}
